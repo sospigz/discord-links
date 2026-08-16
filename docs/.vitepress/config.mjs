@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Discord Links",
   description: "Documentación y guías para desarrollo en Discord",
   lang: "es",
-  // base: "/discord-links/",
+  base: "/discord-links/",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   titleTemplate: false,
   themeConfig: {
