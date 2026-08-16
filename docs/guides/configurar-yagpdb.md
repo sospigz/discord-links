@@ -1,0 +1,1 @@
+# Guía de configuración de YAGPDB.xyz
