@@ -1,1 +1,0 @@
-# Guía de configuración de Nekotina
