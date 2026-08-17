@@ -6,7 +6,7 @@ export default defineConfig({
   description: "Documentación y guías para desarrollo en Discord",
   lang: "es",
   base: "/discord-links/",
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  head: [["link", { rel: "icon", href: "/discord-links/logo.png" }]],
   titleTemplate: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -17,14 +17,6 @@ export default defineConfig({
       { text: "Páginas útiles", link: "/pages" },
       { text: "Utilidades", link: "/utilities" },
     ],
-    sidebar: {
-      "/notas": [
-        {
-          text: "Mis notas",
-          items: [{ text: "Sección uno", link: "/notas#seccion-uno" }],
-        },
-      ],
-    },
 
     socialLinks: [
       { icon: "github", link: "https://github.com/sospigz/discord-links" },
@@ -33,6 +25,30 @@ export default defineConfig({
     search: {
       provider: "local",
     },
+    
+    sidebar: {
+      // "/bots": [
+      //   {
+      //     text: "Guías de bots",
+      //     items: [
+      //       { text: "Introducción", link: "/bots" },
+      //       { text: "YAGPDB", link: "/bots/yagpdb" },
+      //       { text: "Nekotina", link: "/bots/nekotina" },
+      //     ],
+      //   },
+      // ],
+      // "/pages": [
+      //   {
+      //     text: "Páginas útiles",
+      //     items: [
+      //       { text: "Introducción", link: "/pages" },
+      //       { text: "Discord", link: "/pages/discord" },
+      //       { text: "GitHub", link: "/pages/github" },
+      //       { text: "VitePress", link: "/pages/vitepress" },
+      //     ],
+      //   },
+      // ],
+    }
   },
   cleanUrls: true,
   gradedContainers: false,
